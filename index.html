@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <header id="header">
+            <div class="header">
+                <div class="logo">
+                    <img src="img.png" alt="img">
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">БАНК</a></li>
+                        <li><a href="#">БИЗНЕС</a></li>
+                        <li><a href="#">ИНВЕСТИЦИИ</a></li>
+                        <li><a href="#">СТРАХОВАНИЕ</a></li>
+                        <li><a href="#">МОБАЙЛ</a></li>
+                        <li><a href="#">ПУТЕШЕСТВИЯ</a></li>
+                        <li><a href="#">РАЗВЛЕЧЕНИЯ</a></li>
+
+                    </ul>
+                </div>
+                <div class="btn">ВОЙТИ</div>
+            </div>
+        </header>
+
+        <main id="main">
+            <div class="main">
+                <h1>Конвертер валют онлайн</h1>
+
+                <section id="section">
+                    <div class="left-section">
+                        <p class="head">У меня есть </p>
+                        <div class="currencies" id="from">
+                            <button class="firstBtn">RUB</button>
+                            <button>USD</button>
+                            <button>EUR</button>
+                            <button>GBP</button>
+                        </div>
+
+                        <div class="amount">
+                            <input type="text" name="amount" id="amount1" autocomplete="off">
+                            <p class="rate" id="fromRate"></p>
+                        </div>
+
+                    </div>
+                    <div class="right-section">
+                        <p class="head">Хочу приобрести</p>
+
+                        <div class="currencies" id="to">
+                            <button class="firstBtn">RUB</button>
+                            <button>USD</button>
+                            <button>EUR</button>
+                            <button>GBP</button>
+                        </div>
+
+                        <div class="amount">
+                            <input type="number" name="amount" id="amount2" autocomplete="off">
+                            <p class="rate" id="toRate"></p>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
